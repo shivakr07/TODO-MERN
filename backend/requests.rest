@@ -1,0 +1,15 @@
+GET  http://localhost:3000/api/todos
+
+###
+POST http://localhost:3000/api/todo/new
+Content-Type: application/json
+
+{
+    "title" : "React Interview"
+}
+
+###
+DELETE  http://localhost:3000/api/todo/delete/64bfe34559423d1f356d08ed
+
+###
+GET http://localhost:3000/api/todo/toggleStatus/64bfe779ad45db23e18778e4
